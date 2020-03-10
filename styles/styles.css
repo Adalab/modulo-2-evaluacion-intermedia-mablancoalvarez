@@ -1,0 +1,26 @@
+
+
+
+#number {
+
+padding-bottom: 10px;
+
+}
+
+button {
+  font-size:15px;
+  border-radius: 10px;
+  background-color:aquamarine;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.subtext {
+  display:block;
+  width: 30%;
+   border: 2px solid grey;
+}
+#inputNumber{
+
+border: solid 2px gold;
+}
