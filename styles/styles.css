@@ -1,26 +1,47 @@
 
+.wrapper {
 
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #number {
 
-padding-bottom: 10px;
+padding-bottom: 15px;
 
 }
 
 button {
-  font-size:15px;
-  border-radius: 10px;
+  font-size:15px ;
+  border-radius: 6px;
   background-color:aquamarine;
   cursor: pointer;
   margin-top: 10px;
+  padding: 5px;
+}
+main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+
 }
 
 .subtext {
   display:block;
-  width: 30%;
-   border: 2px solid grey;
+  padding: 15px;
+  background-color:pink;
+  border: 2px solid rgb(65, 59, 59);
 }
 #inputNumber{
 
-border: solid 2px gold;
+border: solid 3px pink;
+}
+
+h1 {
+  color: grey;
 }
