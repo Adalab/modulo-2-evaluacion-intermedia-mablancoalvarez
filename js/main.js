@@ -25,7 +25,7 @@ function parseIntNumber(number) {
 function compareNumber() {
 
    attempts += 1;
-   attempsText.innerHTML = `Número de intentos:${attempts}`;
+   attempsText.innerHTML = `Número de intentos:  ${attempts}`;
    let myNumber = parseIntNumber(inputNumber.value);
    if (myNumber > randomNumber && myNumber < 100) {
       clueText.innerHTML = 'Demasiado alto';
